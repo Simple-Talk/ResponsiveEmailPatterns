@@ -12,41 +12,39 @@
 
         /* Base CSS */
         @media only screen and (max-width: 599px) {
-            td[class="wrap"] { padding: 0 10px; }
+            td[class=wrap] { padding: 0 10px; }
         }
 
         /* Reduce Navigation Pattern CSS */
         @media only screen and (max-width: 400px) {
-            td[class="nav3"] { display: none; }
+            td[class=nav3] { display: none; }
         }
         @media only screen and (max-width: 465px) {
-            td[class="nav4"] { display: none; }
-            td[class="main_nav"] td { padding: 20px !important; }
+            td[class=nav4] { display: none; }
+            td[class=main_nav] td { padding: 20px !important; }
         }
         @media only screen and (max-width: 500px) {
-            td[class="nav5"] { display: none; }
-            td[class="main_nav"] td { font-size: 14px !important; }
+            td[class=nav5] { display: none; }
+            td[class=main_nav] td { font-size: 14px !important; }
         }
         @media only screen and (max-width: 599px) {
-            td[class="nav6"] { display: none; }
+            td[class=nav6] { display: none; }
         }
     </style>
 
     <style>
 	/* Show More Pattern CSS */
 	@media only screen and (max-width: 599px) {
-	    td[class="pattern"] .story p {
+	    td[class=pattern] .story p {
 	        max-height: 98px;
             margin-bottom: 14px;
             overflow: hidden;
 
 	    }
-        td[class="pattern"] #story1:target p,
-        td[class="pattern"] #story2:target p,
-        td[class="pattern"] #story3:target p {
+        td[class=pattern] #story1:target p, td[class=pattern] #story2:target p, td[class=pattern] #story3:target p {
             max-height: 999px;
         }
-        td[class="pattern"] .readmore {
+        td[class=pattern] .readmore {
             position: relative;
             display: inline-block !important;
             width: auto !important;
@@ -61,7 +59,7 @@
             text-decoration: none;
             text-transform: uppercase;
         }
-        td[class="pattern"] .readmore:after {
+        td[class=pattern] .readmore:after {
             content: '';
             position: absolute;
             top: 3px;
@@ -73,12 +71,12 @@
         }
 	}
     @media only screen and (max-width: 500px) {
-        td[class="pattern"] .story p {
+        td[class=pattern] .story p {
             max-height: 80px;
         }
     }
     @media only screen and (max-width: 400px) {
-        td[class="pattern"] .story p {
+        td[class=pattern] .story p {
             max-height: 50px;
         }
     }
@@ -173,62 +171,5 @@
             </td>
         </tr>
     </table>
-
-    <!-- Remove From Pattern -->
-    <link href="../../stylesheets/pattern.css" media="screen" rel="stylesheet" type="text/css" />
-
-    <!--
-    <section class="pattern-details">
-        <h1>Show More</h1>
-        <div class="considerations">
-            <h2>Considerations</h2>
-            <p>
-                
-            </p>
-        </div>
-        <div class="inthewild">
-            <h2>In the Wild</h2>
-            <p>
-                <a href=""></a>
-            </p>
-        </div>
-        <div class="code">
-            <h2>Get the Code</h2>
-            <pre>
-              <code>
-
-              </code>
-            </pre>
-        </div>
-    </section>
-     -->
-
-    <footer>
-      <nav>
-        <ul>
-          <li><a href="../../">Responsive Email Patterns</a></li>
-          <li><a href="../../support.html">Pattern Support & Testing</a></li>
-          <li><a href="../../resources.html">Responsive Email Resources</a></li>
-          <li><a href="https://github.com/briangraves/ResponsiveEmailPatterns">Fork Me on Github</a></li>
-          <li><a href="http://www.twitter.com/briangraves">@BrianGraves</a></li>
-        </ul>
-      </nav>
-    </footer>
-    <!-- // Remove From Pattern -->
-
-
-    <script type="text/javascript">
-
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-38926602-1']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
-    </script>
 </body>
 </html>

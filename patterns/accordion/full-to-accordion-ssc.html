@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<body style="background: #fff;font-family:Arial, Helvetica, sans-serif; font-size:12px;">
+
+	<html xmlns="http://www.w3.org/1999/xhtml">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>Full to Accordion | Responsive Email Patterns</title>
+
+    <style type="text/css" media="screen">
+        /* Boilerplate Reset */
+        body, p{margin:0; padding:0; margin-bottom:0; -webkit-text-size-adjust:none; -ms-text-size-adjust:none;} img{line-height:100%; outline:none; text-decoration:none; -ms-interpolation-mode: bicubic;} a img{border: none;} #backgroundTable {margin:0; padding:0; width:100% !important; } a, a:link{color:#2A5DB0; text-decoration: underline;} .ExternalClass {display: block !important; width:100%;} .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } table td {border-collapse:collapse;} sup{position: relative; top: 4px; line-height:7px !important;font-size:11px !important;} .mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {text-decoration: default; color: #a9a9a9 !important; /* set link color */ pointer-events: auto; cursor: default;} .no-detect a{text-decoration: none; color: #666; /* set text color */ pointer-events: auto; cursor: default;} .no-detect-local a{color: #a9a9a9;} span {color: inherit; border-bottom: none;} span:hover { background-color: transparent; }
+
+        /* Base CSS */
+        @media only screen and (max-width: 599px) {
+            td[class=wrap] { padding: 0 10px; }
+        }
+
+        /* Reduce Navigation Pattern CSS */
+        @media only screen and (max-width: 400px) {
+            td[class=nav3] { display: none; }
+        }
+        @media only screen and (max-width: 465px) {
+            td[class=nav4] { display: none; }
+            td[class=main_nav] td { padding: 20px !important; }
+        }
+        @media only screen and (max-width: 500px) {
+            td[class=nav5] { display: none; }
+            td[class=main_nav] td { font-size: 14px !important; }
+        }
+        @media only screen and (max-width: 599px) {
+            td[class=nav6] { display: none; }
+        }
+    </style>
+
+    <style>
+	/* Full to Accordion Pattern CSS */
+	@media only screen and (max-width: 450px) {
+        td[class=pattern] .story {
+            padding: 0 10px 0 10px !important;
+
+        }
+	    td[class=pattern] .story p {
+	        max-height: 0;
+            overflow: hidden;
+
+	    }
+        td[class=pattern] .story h1 a { display: block; position: relative; }
+        td[class=pattern] .story h1 a:after {
+            content: '+';
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: block;
+        }
+        td[class=pattern] #story1:target p, td[class=pattern] #story2:target p, td[class=pattern] #story3:target p {
+            max-height: 999px;
+            margin-bottom: 30px;
+            -webkit-transition: max-height 0.5s ease-out;
+            -moz-transition: max-height 0.5s ease-out;
+            -ms-transition: max-height 0.5s ease-out;
+            -o-transition: max-height 0.5s ease-out;
+            transition: max-height 0.5s ease-out;
+        }
+	}
+</style>
+
+    <table id="backgroundTable" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#fff;">
+        <tr>
+            <td class="wrap" align="center" valign="top" style="background:#fff;" width="100%">
+                <table cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="pattern" width="600">
+							<table cellpadding="0" cellspacing="0">
+							    <tr>
+							        <td class="story" id="story1" width="600" align="left" valign="top" style="border-top: 1px solid #999; border-bottom: 1px dotted #999; font-family: arial,sans-serif; font-size: 14px; padding: 0 0px 30px 0px;">
+							        	<h1><a href="#story1" style="text-decoration: none; color: #333">SQL Server 2012 : SQL 2012 &ndash; General</a></h1>
+											<p><a href="#">NUMA - Node</a> - Hi, I need to verify memory size of each NUMA node in the system. Please share me the method how to...</p>
+											<p><a href="#">Permissions and encryption</a> - Is there any way to restrict permissions so that a user can read from a database (and even decrypt data)...
+											<p><a href="#">Wrestling with DateTime data from SQL Sever 2000/2005 DB</a> - Hey guys. I tried to work out the solution myself before asking for help but couldn't get this to work....
+											<p><a href="#">Stored procedure performance update after index rebuild</a> - I have a stored procedure that runs every hour from 5 AM to 10 PM to check the pending orders...
+											<p><a href="#">How to update a DB user password in SQL Server 2012</a> - I am needing to update the password of one of the users in the DB\security folder in SQL Server 2012....
+											<p><a href="#">Upgrade 32 bit to 64 bit?</a> - I recently inherited a SQL 2012 32 bit installation running on a 64 bit OS. Has anyone ever performed such...
+											<p><a href="#">SQL server 2012 HA and DR solution design for sharepoint</a> - Hi Experts, We need to setup HA and DR solution in sql 2012 for Sharepoint. what is the best practice for implementing...
+											<p><a href="#">Need suggestion in Prod migration</a> - Hi All, We need to migrate some of our old prod and dev to new prod server.i have few queries to...
+											<p><a href="#">Minimally Logged trouble: SELECT ... INTO vs. INSERT INTO WITH (TABLOCK)</a> - Hi everybody. I've an unexpected behaviour filling a table with the [i]tablock[/i] hint. I need to use minimally logged insert...
+											<p><a href="#">Express edition Performance tunning</a> - Hi Can anyone guide regarding how to do performance tuinning using SQl 2012 Express edition Regards
+											<p><a href="#">Query against snapshot databases create more physical io requests</a> - Hi all, I had an issue where a query executed against a snapshot database was taking an age, the same query...
+											<p><a href="#">Suggest a port other then default</a> - Hi at one of the client i have to suggest him a port other then default.Can anybody tell me how...
+											<p><a href="#">SSDT Problems for VS 2012</a> - Hello guys I need urgent help here. I've installed ssdt sp 1 and it worked for about few days. Yesterday when...
+
+							            <a class="readmore" href="#story1" style="display: none; width: 0; max-height: 0; max-width: 0; height: 0; overflow: hidden; float: left; font-size: 0; color: #fff;">Read More</a>
+							        </td>
+							    </tr>
+							    <tr>
+							        <td class="story" id="story2" width="600" align="left" valign="top" style="border-bottom: 1px dotted #999; font-family: arial,sans-serif; font-size: 14px; color: #333; padding: 0 0 30px 0;">
+							            <h1><a href="#story2" style="text-decoration: none; color: #333">Fascinating forum number 2</a></h1>
+							            <p>
+							                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh. Duis tincidunt lectus quis dui viverra vestibulum. Suspendisse vulputate aliquam dui. Nulla elementum dui ut augue. Aliquam vehicula mi at mauris. Maecenas placerat, nisl at consequat rhoncus, sem nunc gravida justo, quis eleifend arcu velit quis lacus. Morbi magna magna, tincidunt a, mattis non, imperdiet vitae, tellus. Sed odio est, auctor ac, sollicitudin in, consequat vitae, orci. Fusce id felis. Vivamus sollicitudin metus eget eros.
+							            </p>
+							            <a class="readmore" href="#story2" style="display: none; width: 0; max-height: 0; max-width: 0; height: 0; overflow: hidden; float: left; font-size: 0; color: #fff;">Read More</a>
+							        </td>
+							    </tr>
+							    <tr>
+							        <td class="story" id="story3" width="600" align="left" valign="top" style="border-bottom: 1px solid #999; font-family: arial,sans-serif; font-size: 14px; color: #333; padding: 0 0 30px 0;">
+							            <h1><a href="#story3" style="text-decoration: none; color: #333">Fascinating forum number 3</a></h1>
+							            <p>
+							                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh. Duis tincidunt lectus quis dui viverra vestibulum. Suspendisse vulputate aliquam dui. Nulla elementum dui ut augue. Aliquam vehicula mi at mauris. Maecenas placerat, nisl at consequat rhoncus, sem nunc gravida justo, quis eleifend arcu velit quis lacus. Morbi magna magna, tincidunt a, mattis non, imperdiet vitae, tellus. Sed odio est, auctor ac, sollicitudin in, consequat vitae, orci. Fusce id felis. Vivamus sollicitudin metus eget eros.
+							            </p>
+							            <a class="readmore" href="#story3" style="display: none; width: 0; max-height: 0; max-width: 0; height: 0; overflow: hidden; float: left; font-size: 0; color: #fff;">Read More</a>
+							        </td>
+							    </tr>
+							</table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="footer" align="left" style="padding: 10px 0; font-family: arial,sans-serif; font-size: 12px; color: #999;">
+                            This email was sent by: TBD<br />
+                            4822 West 62nd Street Mission, KS 66205<br /><br />
+                            <a href="#" style="color: #999;">Preferences</a> | <a href="#" style="color: #999;">Unsubscribe</a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
